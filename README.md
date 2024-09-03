@@ -2,7 +2,17 @@
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/your-username/your-repo-name/releases) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Dropzone Version](https://img.shields.io/badge/Dropzone-4.0+-green.svg)](https://aptonic.github.io/dropzone/)
 
-This is a (personal) [Dropzone](https://aptonic.com/) action that uploads files with random names to [https://yanawa.io/temp/](https://yanawa.io/temp/). It is used and configured for personal use but can be adjusted via the `.env` file. This code was tested using Python 3.9.6.
+This is a (personalized) [Dropzone](https://aptonic.com/) action that uploads one or more files with random names to [https://uploads.yanawa.io](https://uploads.yanawa.io), which links to a 100 GB Storage Box provided by Hetzner. It is used and configured for personal use but can be adjusted via the `.env` file. This code was tested using Python 3.9.6.
+
+**Note:** Wherehas `v1.0.0` used FTP over TLS as protocoll, the current version, `v1.1.0`, has switched to SSL.
+
+## Preview
+
+<video width="100%" height="auto" controls>
+  <source src="https://uploads.yanawa.io/mVdCXjSY.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Configuration
 
