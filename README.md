@@ -3,7 +3,7 @@
 ![GitLab Release](https://img.shields.io/gitlab/v/release/thaikolja%2Fdropzone-uploader?style=flat&label=version) ![GitLab Stars](https://img.shields.io/gitlab/stars/thaikolja%2Fdropzone-uploader?style=flat&label=gitlab%20stars&color=%23eb763c)
  ![GitHub Stars](https://img.shields.io/github/stars/thaikolja/dropzone-uploader?style=flat&label=github%20stars) ![GitLab License](https://img.shields.io/gitlab/license/thaikolja%2Fdropzone-uploader?color=green) ![Gitlab Pipeline Status](https://img.shields.io/gitlab/pipeline-status/thaikolja%2Fdropzone-uploader)
 
-This is a **private** [Dropzone](https://aptonic.com/) action that uploads one or more files with random names to [uploads.yanawa.io](https://uploads.yanawa.io/), which links to a 100 GB [Storage Box provided by Hetzner](https://www.hetzner.com/storage/storage-box/). It is used and configured for personal use but can be adjusted easily via, as explained in this `README.md`.
+This is a **private** [Dropzone](https://aptonic.com/) action that uploads one or more files with random names to [https://uploads.yanawa.io](https://uploads.yanawa.io/), which links to a 100 GB [Storage Box provided by Hetzner](https://www.hetzner.com/storage/storage-box/). It is used and configured for personal use but can be adjusted easily via, as explained in this `README.md`.
 
 **Note:** `v1.0.0` uses FTP over TLS. `v1.1.0` and above, however, use SFTP. To download the version with FTP support, see the "Usage" section. **In a future version, you can easily switch from FTP to SSL and vice versa.**
 
